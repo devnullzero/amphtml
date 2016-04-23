@@ -19,11 +19,11 @@ limitations under the License.
 <table>
   <tr>
     <td width="40%"><strong>Description</strong></td>
-    <td>A sidebar provides a way to display meta content intended for temporary access (navigation links, buttons, menus, etc.).The sidebar can be revealed by a button tap while the main content remains visually underneath.</td>
+    <td>A sidebar provides a way to display meta content intended for temporary access (navigation links, buttons, menus, etc.). The sidebar can be revealed by a button tap while the main content remains visually underneath.</td>
   </tr>
   <tr>
     <td width="40%"><strong>Availability</strong></td>
-    <td><div><a href="https://www.ampproject.org/docs/reference/experimental.html">Experimental</a>; no validations yet.</div><div>Work in progress.</div></td>
+    <td><div><a href="https://www.ampproject.org/docs/reference/experimental.html">Experimental</a> or AMP.toggleExperiment('amp-sidebar') ; no validations yet.</div> <div>Work in progress.</div></td>
   </tr>
   <tr>
     <td width="40%"><strong>Required Script</strong></td>

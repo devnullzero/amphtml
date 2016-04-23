@@ -47,7 +47,7 @@ limitations under the License.
 
 Example
 ```html
-<amp-sidebar id='sidebar1'>
+<amp-sidebar layout="nodisplay" id='sidebar1'>
   <ul>
     <li> Nav item 1</li>
     <li> Nav item 2</li>
@@ -64,13 +64,13 @@ Example
 ```
 
 ### Opening and Closing the Sidebar
-Setting the `on` attribute on one or more elements within the page and setting it's method to `toggle` will toggle the sidebar when the element is tapped or clicked. Setting the element's method to `open` or `close` will open or close the sidebar.Tapping back on the partially-visible main content area closes the sidebar.
+Setting the `on` attribute on one or more elements within the page and setting it's method to `toggle` will toggle the sidebar when the element is tapped or clicked. Setting the element's method to `open` or `close` will open or close the sidebar. Tapping back on the partially-visible main content area closes the sidebar.
 
 Alternatively pressing the escape key on the keyboard will also close the lightbox.
 
 Example
 ```html
-<div class="hamburger" on='tap:sidebar1.toggle'></button>
+<div class="hamburger" on='tap:sidebar1.toggle'></div>
 <button on='tap:sidebar1'>Open</button>
 <button on='tap:sidebar1.open'>Open</button>
 <button on='tap:sidebar1.close'>x</button>

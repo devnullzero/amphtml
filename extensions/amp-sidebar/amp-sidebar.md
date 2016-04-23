@@ -23,7 +23,7 @@ limitations under the License.
   </tr>
   <tr>
     <td width="40%"><strong>Availability</strong></td>
-    <td><div><a href="https://www.ampproject.org/docs/reference/experimental.html">Experimental</a> or AMP.toggleExperiment('amp-sidebar') ; no validations yet.</div> <div>Work in progress.</div></td>
+    <td><div><a href="https://www.ampproject.org/docs/reference/experimental.html">Experimental</a> or AMP.toggleExperiment('amp-sidebar') ; </div> <div>No validations yet. Work in progress.</div></td>
   </tr>
   <tr>
     <td width="40%"><strong>Required Script</strong></td>
